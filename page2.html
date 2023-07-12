@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body style="font-family:Caveat; background-color:black;">
+    <script src="code.jquery.com_jquery-3.7.0.min.js">
+    </script>
+    <script src="script.js">
+        var num
+    </script>
+    <header>
+        <div>
+            <img src="이름.png" width="20%" style="position:absolute; right:1%; top:1%;">
+        </div>
+        <a href="index.html">
+            <img id="ttt" src="text.png" width="30%">
+        </a>
+        <table class="tttt">
+            <td><a href="page1.html" style="text-decoration: none; color:rgba(120, 120, 120, 0.7); font-family:Gothic;">소개</a></td>
+            <td><a href="page2.html" style="text-decoration: none; color:white; font-family:Gothic;">갤러리</a></td>
+        </table>
+    </header>
+    <main>
+        <ul class="inf">
+            <li>
+                <img id="photo1" src="딱새 수컷 1.JPG" width="25%" style="position:absolute; top: 215%; right: 5%;">
+                <div class="caption4" style="right: 5%;">
+                    <h2>Daurian Redstart</h2>
+                    <p style="font-size:x-large"> Date: 2021.04.16</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            <li>
+                <img id="photo2" src="New Holland Honeyeater.JPG" width="25%" style="position:absolute; top: 35%; left:5%;">
+                <div class="caption1" style="left:5%;">
+                    <h2>New Holland Honeyeater</h2>
+                    <p style="font-size:x-large">Date: 2022.07.12</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo3" src="참수리6.JPG" width="25%" style="position:absolute; top: 95%; left: 5%;">
+                <div class="caption2" style="left: 5%;">
+                    <h2>Steller's Sea Eagle</h2>
+                    <p style="font-size:x-large">Date: 2022.01.11</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo4" src="Tawny Crowned Honeyeater.JPG" width="25%" style="position:absolute; top: 35%; left: 50%; margin-left: -12.5%;">
+                <div class="caption1" style="left: 50%; margin-left: -12.5%;">
+                    <h2>Tawny Crowned Honeyeater</h2>
+                    <p style="font-size:x-large">Date: 2022.07.11</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo5" src="노랑턱멧새2.JPG" width="25%" style="position:absolute; top: 155%; left:5%;">
+                <div class="caption3" style="left: 5%;">
+                    <h2>Yellow-throated Bunting</h2>
+                    <p style="font-size:x-large">Date: 2021.11.07</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo6" src="흰눈썹황금새 4.JPG" width="25%" style="position:absolute; top: 215%; left: 5%;">
+                <div class="caption4" style="left: 5%;">
+                    <h2>Yellow-rumped Flycatcher</h2>
+                    <p style="font-size:x-large">Date: 2021.05.02</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo7" src="물총새.JPG" width="25%" style="position:absolute; top: 215%; left: 50%; margin-left: -12.5%;">
+                <div class="caption4" style="left: 50%; margin-left: -12.5%;">
+                    <h2>Common Kingfisher</h2>
+                    <p style="font-size:x-large">Date: 2021.04.30</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo8" src="노랑할미새2.JPG" width="25%" style="position:absolute; top: 155%; right: 5%;">
+                <div class="caption3" style="right: 5%;">
+                    <h2>Gray Wagtail</h2>
+                    <p style="font-size:x-large">Date: 2021.05.14</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo9" src="DSCN4279 (2).JPG" width="25%" style="position:absolute; top: 35%; right: 5%;">
+                <div class="caption1" style="right: 5%;">
+                    <h2>White-throated Rock Thrush</h2>
+                    <p style="font-size:x-large">Date: 2022.05.09</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo10" src="큰기러기1.JPG" width="25%" style="position:absolute; top: 155%; left: 50%; margin-left: -12.5%;">
+                <div class="caption3" style="left: 50%; margin-left: -12.5%;">
+                    <h2>Tundra Bean Goose</h2>
+                    <p style="font-size:x-large">Date: 2021.09.19</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo11" src="참새1.JPG" width="25%" style="position:absolute; top: 95%; left: 50%; margin-left: -12.5%;">
+                <div class="caption2" style="left: 50%; margin-left: -12.5%;">
+                    <h2>Sparrow</h2>
+                    <p style="font-size:x-large">Date: 2021.12.26</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+            <li>
+                <img id="photo12" src="직박구리2.JPG" width="25%" style="position:absolute; top: 95%; right: 5%;">
+                <div class="caption2" style="right: 5%;">
+                    <h2>Brown-eared Bulbul</h2>
+                    <p style="font-size:x-large">Date: 2021.12.26</p>
+                    <p style="font-size:larger">by Hyunsoo Song</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+</body>

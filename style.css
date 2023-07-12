@@ -1,0 +1,143 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    top:150px;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 2.5vw;
+}
+div {
+    text-align: center;
+    cursor:pointer;
+}
+td {
+    cursor:pointer;
+    border: 1px solid black;
+    padding: 12px;
+}
+td :hover{
+    background-color: darkgray;
+}
+a :hover {
+    color : black;
+}
+.caption0{
+    position: absolute;
+    top: 35%;
+    width: 25%;
+    height: 45%;
+    padding-top: 20px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 10;
+}
+.caption1{
+    position: absolute;
+    top: 35%;
+    width: 25%;
+    height: 45%;
+    padding-top: 20px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 10;
+}
+.caption2{
+    position: absolute;
+    top: 95%;
+    width: 25%;
+    height: 45%;
+    padding-top: 20px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 10;
+}
+.caption3{
+    position: absolute;
+    top: 155%;
+    width: 25%;
+    height: 45%;
+    padding-top: 20px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 10;
+}
+.caption4{
+    position: absolute;
+    top: 215%;
+    width: 25%;
+    height: 45%;
+    padding-top: 20px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 10;
+}
+.inf li:hover .caption0{
+    opacity: 1;
+}
+.inf li:hover .caption1{
+    opacity: 1;
+}
+.inf li:hover .caption2{
+    opacity: 1;
+}
+.inf li:hover .caption3{
+    opacity: 1;
+}
+.inf li:hover .caption4{
+    opacity: 1;
+}
+.inf .caption1 h2, .inf .caption1 p{
+    color:#FFF;
+    text-align: center;
+}
+.inf .caption2 h2, .inf .caption2 p{
+    color:#FFF;
+    text-align: center;
+}
+.inf .caption0 h2, .inf .caption0 p{
+    color:#FFF;
+    text-align: center;
+}
+.inf .caption3 h2, .inf .caption3 p{
+    color:#FFF;
+    text-align: center;
+}
+.inf .caption4 h2, .inf .caption4 p{
+    color:#FFF;
+    text-align: center;
+}
+h3 {
+    position:absolute;
+    left:33%;
+    top:35%;
+}
+h6 {
+    position:absolute;
+    top:75%;
+    left:10%;
+    z-index:11;
+}
+@font-face{
+    font-family: "Caveat";
+    src: url("Caveat-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+}
+main {
+    font-family: 'Caveat', serif;
+  }
+#ttt {
+    position:absolute;
+    left:37%;
+    top:1%;
+}
+.tttt {
+    position:absolute;
+    left:43%;
+    top:15%;
+}
+
